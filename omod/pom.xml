@@ -9,8 +9,8 @@
 
 	<artifactId>ugandaemrspa-omod</artifactId>
 	<packaging>jar</packaging>
-	<name>UgandaEMRSpa OMOD</name>
-	<description>Omod submodule for UgandaEMRSpa</description>
+	<name>UgandaEMR SPA OMOD</name>
+	<description>Omod submodule for UgandaEMRSPA</description>
 
 	<dependencies>
         <dependency>
@@ -30,11 +30,7 @@
 			<classifier>tests</classifier>
 		</dependency>
 
-		<dependency>
-			<groupId>org.openmrs.module</groupId>
-			<artifactId>uiframework-api</artifactId>
-			<scope>provided</scope>
-		</dependency>
+
 	</dependencies>
 
 	<build>

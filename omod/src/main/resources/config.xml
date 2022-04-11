@@ -7,7 +7,7 @@
 	<name>${project.parent.name}</name>
 	<version>${project.parent.version}</version>
 	<package>org.openmrs.module.ugandaemrspa</package>
-	<author>ssevvumesolomon</author>
+	<author>METS PROJECT</author>
 	<description>
 			${project.parent.description}
 	</description>
@@ -35,10 +35,6 @@
 	</require_modules>
 	
 	<!-- Extensions -->
-	<extension>
-		<point>org.openmrs.admin.list</point>
-		<class>org.openmrs.module.ugandaemrspa.extension.html.AdminList</class>
-	</extension>
 
 	<aware_of_modules>
 		<aware_of_module>org.openmrs.module.legacyui</aware_of_module>

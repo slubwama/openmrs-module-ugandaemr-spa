@@ -12,7 +12,7 @@
 	<artifactId>ugandaemrspa</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>UgandaEMRSpa</name>
+	<name>UgandaEMR SPA</name>
 	<description>This is the module that introduces Micro-front ends into UgandaEMR using Single Page Applications</description>
 
 	<url>https://wiki.openmrs.org/x/FQ4z</url>
@@ -28,18 +28,7 @@
 		<module>omod</module>
 	</modules>
 
-	<dependencyManagement>
-		<dependencies>
-			<!-- Importing versions from refapp distro -->
-            <dependency>
-                <groupId>org.openmrs.distro</groupId>
-                <artifactId>referenceapplication</artifactId>
-                <version>2.4</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-		</dependencies>
-	</dependencyManagement>
+
 
 	<repositories>
 		<repository>
@@ -67,6 +56,6 @@
 
 	<properties>
 		<openmrsPlatformVersion>1.11.6</openmrsPlatformVersion>
-		<ugandaemrVersion>3.3.6-SNAPSHOT</ugandaemrVersion>
+		<ugandaemrVersion>3.3.5</ugandaemrVersion>
 	</properties>
 </project>

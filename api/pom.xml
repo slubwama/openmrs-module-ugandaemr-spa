@@ -9,6 +9,6 @@
 
 	<artifactId>ugandaemrspa-api</artifactId>
 	<packaging>jar</packaging>
-	<name>UgandaEMRSpa API</name>
+	<name>UgandaEMR SPA API</name>
 	<description>API project for UgandaEMRSpa</description>
 </project>
