@@ -28,8 +28,6 @@
 		<module>omod</module>
 	</modules>
 
-
-
 	<repositories>
 		<repository>
 			<id>openmrs-repo</id>
@@ -57,5 +55,7 @@
 	<properties>
 		<openmrsPlatformVersion>1.11.6</openmrsPlatformVersion>
 		<ugandaemrVersion>3.3.5</ugandaemrVersion>
+		<spaVersion>1.0.8</spaVersion>
+		<initializerVersion>2.1.0</initializerVersion>
 	</properties>
 </project>
