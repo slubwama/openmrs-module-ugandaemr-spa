@@ -18,9 +18,9 @@
 	<url>https://wiki.openmrs.org/x/FQ4z</url>
 
 	<scm>
-		<connection>scm:git:git@github.com:openmrs/openmrs-module-ugandaemrspa.git</connection>
+		<connection>scm:git:git@github.com:METS-Programme/openmrs-module-ugandaemr-spa.git</connection>
 		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-ugandaemrspa.git</developerConnection>
-		<url>https://github.com/openmrs/openmrs-module-ugandaemrspa/</url>
+		<url>https://github.com/METS-Programme/openmrs-module-ugandaemr-spa</url>
 	</scm>
 
 	<modules>
@@ -158,6 +158,18 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>openmrs-repo-modules</id>
+			<name>OpenMRS Modules</name>
+			<url>https://openmrs.jfrog.io/artifactory/modules/</url>
+		</repository>
+		<snapshotRepository>
+			<id>openmrs-repo-snapshots</id>
+			<name>OpenMRS Snapshots</name>
+			<url>https://openmrs.jfrog.io/openmrs/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 
 	<pluginRepositories>
