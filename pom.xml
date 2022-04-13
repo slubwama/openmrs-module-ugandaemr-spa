@@ -19,7 +19,7 @@
 
 	<scm>
 		<connection>scm:git:git@github.com:METS-Programme/openmrs-module-ugandaemr-spa.git</connection>
-		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-ugandaemrspa.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:METS-Programme/openmrs-module-ugandaemr-spa.git</developerConnection>
 		<url>https://github.com/METS-Programme/openmrs-module-ugandaemr-spa</url>
 	</scm>
 
